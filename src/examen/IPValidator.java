@@ -1,8 +1,20 @@
+/*
+ * @author Alejandro
+ * @version 1.0
+ *  
+ */
 package examen;
-
+/*
+ * Clase IPBValidator
+ */
 public class IPValidator {
-	public static String ipPattern;
-
+	
+	 /* String que indica el patron de las IP
+	 */public static String ipPattern;
+	/*
+	 * @ip Tu direccion a insertar
+	 * @ipClass La clase de tu direccion
+	 */
 	public static boolean validateIPAndClass(String ip, char ipClass) {
 		boolean validIPClass = true;
 		ipPattern = "^(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)"
@@ -25,6 +37,9 @@ public class IPValidator {
 				validIPClass = ipClass == 'E';
 			}
 		}
+		/*
+		 * Devuelve el valor que se haya conseguido
+		 */
 		return validIPClass;
 	}
 }

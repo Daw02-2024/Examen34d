@@ -1,16 +1,15 @@
 package examen;
 
-import static org.junit.Assert.*;
 
-import org.junit.Test;
 
-public class IPValidatorTest {
-	public static boolean validateIPAndClass(char ipClass, String ip) {
-	}
 
-	public void testA() {
+public class IPValidatorTest {}
+	/*
+	public static boolean validateIPAndClass(String ip, char ipClass)	}
+
+	public b testA() {
 		boolean classResultEsperado = true;
-		new validateIPAndClass("A", "125") {
+		new validateIPAndClass("A", "125"){
 			if(ip <= 126 && ipClass == "A") {
 				return ClassResultEsperado;
 			}
@@ -52,4 +51,4 @@ public void testD() {
 }
 	
 	
-}
+}*/

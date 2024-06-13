@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"examen","c":"IPValidator","l":"ipPattern"},{"p":"examen","c":"IPValidator","l":"IPValidator()","u":"%3Cinit%3E()"},{"p":"examen","c":"IPValidator","l":"validateIPAndClass(String, char)","u":"validateIPAndClass(java.lang.String,char)"}];updateSearchResults();
